@@ -152,7 +152,7 @@ client.close()
   └─ 返回 EncodedStarSPData 列表
 ```
 
-### XPSD 数据布局（来自 PCL 源码逆向）
+### XPSD 数据布局
 
 ```
 文件头（16 bytes）:
@@ -237,7 +237,7 @@ Cython 编译指令：
 
 本项目由 **DeepSeek V4** 辅助开发，包括：
 
-- XPSD 二进制格式逆向工程（PixInsight PCL 源码分析）
+- XPSD 二进制格式解析
 - HEALPix 空间索引设计与实现
 - NumPy 向量化解码优化
 - Cython 编译配置与 `.pyd` 生成
