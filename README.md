@@ -233,6 +233,17 @@ Cython 编译指令：
 - `cdivision=True` — C 级别除法
 - `/O2` (MSVC) / `-O3` (GCC) — 最大优化
 
+## 开发
+
+本项目由 **DeepSeek V4** 辅助开发，包括：
+
+- XPSD 二进制格式逆向工程（PixInsight PCL 源码分析）
+- HEALPix 空间索引设计与实现
+- NumPy 向量化解码优化
+- Cython 编译配置与 `.pyd` 生成
+- 多级 LRU 缓存与 mmap 文件映射
+- API 设计与文档编写
+
 ## 许可证
 
 本项目仅用于学术研究和教育目的。Gaia 数据版权归 ESA/Gaia/DPAC 所有。
