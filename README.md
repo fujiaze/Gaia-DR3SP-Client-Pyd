@@ -128,7 +128,7 @@ client.close()
 | 单星光谱调取 | 1-2ms | 二分查找 source_id |
 | 索引构建 | 6s | 685,338 叶节点 / 20 文件 |
 
-测试环境：Windows 10, Python 3.12, Intel i9, NVMe SSD
+测试环境：Windows 11, Python 3.12, AMD R7 5800X, NVMe SSD
 
 ---
 
