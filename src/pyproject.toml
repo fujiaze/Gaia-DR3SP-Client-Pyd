@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68", "cython>=3.0", "numpy>=1.24"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gaia-spectra-store"
+version = "2.0.0"
+description = "Gaia DR3/SP XPSD Direct Client — high-performance native star catalog query engine with BP/RP spectrum retrieval"
+requires-python = ">=3.8"
+dependencies = [
+    "numpy>=1.24",
+    "msgpack>=1.0",
+    "tqdm>=4.60",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+
+[tool.setuptools.package-data]
+"gaia_spectra_store" = ["*.pyx", "*.pxd"]

@@ -1,0 +1,33 @@
+# XPSD data files (~80 GB) — download separately from PixInsight
+data/*.xpsd
+*.xpsd
+
+# HEALPix spatial indices (~154 MB) — rebuild with: python run_gaia.py --build-index
+indices/*.xpsi
+*.xpsi
+
+# Compiled Python extensions — rebuild with: python setup.py build_ext --inplace
+*.pyd
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Build artifacts
+build/
+dist/
+*.egg
+*.so
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Virtual environment
+venv/
+.venv/
+env/
