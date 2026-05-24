@@ -23,16 +23,6 @@ gdr3sp-1.0.0-20.xpsd  (4.0 GB)
    ```
    约 80 GB，含全部 20 个 .xpsd 文件。
 
-2. **PixInsight 官方**：
-   - 安装 PixInsight → Resources → Updates → Manage Repositories
-   - 添加 Gaia DR3/SP 数据库 → 下载
-
-3. **手动下载**：
-   访问 PixInsight 分发服务器：
-   ```
-   https://dist.pixinsight.com/
-   ```
-
 ### 数据说明
 
 | 属性 | 值 |

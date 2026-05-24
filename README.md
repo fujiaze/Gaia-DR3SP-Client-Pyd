@@ -214,7 +214,6 @@ photon_flux = spectrum × λ / (h·c)  → ph·s⁻¹·m⁻²·nm⁻¹
 | 方式 | 链接 | 说明 |
 |------|------|------|
 | 百度网盘 | https://pan.baidu.com/s/1u8CCMtecsaiz2nVjLsThRg?pwd=fujz 提取码 `fujz` | 推荐国内用户，~80 GB |
-| PixInsight 官方 | https://dist.pixinsight.com/ | 原始分发服务器 |
 
 详细说明见 [data/README.md](data/README.md)。
 
